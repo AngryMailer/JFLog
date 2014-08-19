@@ -1,0 +1,33 @@
+﻿生成启动时间为 2014-1-21 15:48:14。
+     1>项目“G:\Projects_Me\VC2010 Projects\prjJFLogEx\prjJFLogEx\prjJFLogEx.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\prjJFLogEx.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D PRJJFLOGEX_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Projects_Me\VC2010 Projects\prjJFLogEx\Release\prjJFLogEx.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"prjJFLogEx.def" /MANIFEST /ManifestFile:"Release\prjJFLogEx.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\Projects_Me\VC2010 Projects\prjJFLogEx\Release\prjJFLogEx.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Projects_Me\VC2010 Projects\prjJFLogEx\Release\prjJFLogEx.lib" /MACHINE:X86 /DLL Release\prjJFLogEx.res
+         Release\StaticPubFunc.obj
+         Release\dllmain.obj
+         Release\Log.obj
+         Release\LogText.obj
+         Release\prjJFLogEx.obj
+         Release\stdafx.obj
+            正在创建库 G:\Projects_Me\VC2010 Projects\prjJFLogEx\Release\prjJFLogEx.lib 和对象 G:\Projects_Me\VC2010 Projects\prjJFLogEx\Release\prjJFLogEx.exp
+         正在生成代码
+         已完成代码的生成
+         prjJFLogEx.vcxproj -> G:\Projects_Me\VC2010 Projects\prjJFLogEx\Release\prjJFLogEx.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"G:\Projects_Me\VC2010 Projects\prjJFLogEx\Release\prjJFLogEx.dll;#2" /manifest Release\prjJFLogEx.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\prjJFLogEx.unsuccessfulbuild”。
+         正在对“Release\prjJFLogEx.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\Projects_Me\VC2010 Projects\prjJFLogEx\prjJFLogEx\prjJFLogEx.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.01

@@ -1,0 +1,38 @@
+﻿生成启动时间为 2014-1-21 15:11:38。
+     1>项目“G:\Projects_Me\VC2010 Projects\prjJFLogEx\prjJFLogEx\prjJFLogEx.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\prjJFLogEx.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+         所有输出均为最新。
+       ResourceCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(G:\Projects_Me\VC2010 Projects\prjJFLogEx\Debug\prjJFLogEx.dll) 与 Linker 的 OutputFile 属性值(G:\Projects_Me\VC2010 Projects\prjJFLogEx\Debug\JFLog.dll)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(prjJFLogEx) 与 Linker 的 OutputFile 属性值(JFLog)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Projects_Me\VC2010 Projects\prjJFLogEx\Debug\JFLog.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"prjJFLogEx.def" /MANIFEST /ManifestFile:"Debug\prjJFLogEx.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\Projects_Me\VC2010 Projects\prjJFLogEx\Debug\prjJFLogEx.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Projects_Me\VC2010 Projects\prjJFLogEx\Debug\prjJFLogEx.lib" /MACHINE:X86 /DLL Debug\prjJFLogEx.res
+         Debug\prjJFLogEx.dll.embed.manifest.res
+         Debug\StaticPubFunc.obj
+         Debug\dllmain.obj
+         Debug\Log.obj
+         Debug\LogText.obj
+         Debug\prjJFLogEx.obj
+         Debug\stdafx.obj
+            正在创建库 G:\Projects_Me\VC2010 Projects\prjJFLogEx\Debug\prjJFLogEx.lib 和对象 G:\Projects_Me\VC2010 Projects\prjJFLogEx\Debug\prjJFLogEx.exp
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\prjJFLogEx.dll.embed.manifest" /manifest Debug\prjJFLogEx.dll.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         prjJFLogEx.vcxproj -> G:\Projects_Me\VC2010 Projects\prjJFLogEx\Debug\prjJFLogEx.dll
+       FinalizeBuildStatus:
+         正在删除文件“Debug\prjJFLogEx.unsuccessfulbuild”。
+         正在对“Debug\prjJFLogEx.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\Projects_Me\VC2010 Projects\prjJFLogEx\prjJFLogEx\prjJFLogEx.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.39

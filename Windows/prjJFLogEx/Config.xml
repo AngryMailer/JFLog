@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SystemConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" DateTimeValue="2012-09-17">
+  <FilesSavePath>E:\Work_WSH\MVS_CLIENT\DownloadFiles</FilesSavePath>
+  <CapturePath>E:\Work_WSH\MVS_CLIENT\DownloadFiles\MVS_Picture</CapturePath>
+  <ServerPort>6008</ServerPort>
+  <RequestTimeout>10000</RequestTimeout>
+  <DevcieTreeRefreshInternal>5</DevcieTreeRefreshInternal>
+  <MapMode>Mode_SingleVehicle</MapMode>
+  <MapType>GoogleMap</MapType>
+  <ProtocalType>1</ProtocalType>
+  <AlarmListRecordCount>200</AlarmListRecordCount>
+  <StopPreviewWhenPlayerBeHided>false</StopPreviewWhenPlayerBeHided>
+  <MaxPointOfTrackLine>40</MaxPointOfTrackLine>
+  <GpsTrackUpdateInternalSingle>1</GpsTrackUpdateInternalSingle>
+  <GpsTrackUpdateInternalMultiple>3</GpsTrackUpdateInternalMultiple>
+  <AlarmTypeShow />
+  <CaculateSpeedOut>false</CaculateSpeedOut>
+  <MaxVedioSearchDays>5</MaxVedioSearchDays>
+  <ShowDevGrpAll>true</ShowDevGrpAll>
+  <ShowDevGrpOnline>true</ShowDevGrpOnline>
+  <ShowDevGrpOverSpeed>true</ShowDevGrpOverSpeed>
+  <ShowDevGrpLowSpeed>true</ShowDevGrpLowSpeed>
+  <ReplayRecordSearchPath />
+  <ReplayGPSFileSearchPath />
+  <ReplayImageSearchPath />
+  <DeviceSnapQuality>0</DeviceSnapQuality>
+  <DeviceSnapResolution>1</DeviceSnapResolution>
+  <MapXWorkParam>
+    <nLineWidth>6</nLineWidth>
+    <nLineColor>0</nLineColor>
+    <nMaxLinePoints>50</nMaxLinePoints>
+    <nVehicleFlagSize>0</nVehicleFlagSize>
+    <nVehicleFlagIndex>0</nVehicleFlagIndex>
+    <nVehicleColor_OnLine>0</nVehicleColor_OnLine>
+    <nVehicleColor_OffLine>0</nVehicleColor_OffLine>
+    <nVehicleColor_Alarm>0</nVehicleColor_Alarm>
+    <nVehicleColor_Lowspeed>0</nVehicleColor_Lowspeed>
+    <sVehicleFontName>Arial</sVehicleFontName>
+    <nLabelColor>0</nLabelColor>
+    <nLabelOffset>0</nLabelOffset>
+    <nLabelFontSize>0</nLabelFontSize>
+    <sLabelFontName>Arial</sLabelFontName>
+    <sMapDataPath>C:\</sMapDataPath>
+    <bShowTrack>true</bShowTrack>
+    <dbCenterX>0</dbCenterX>
+    <dbCenterY>0</dbCenterY>
+    <ViewZoom>0</ViewZoom>
+  </MapXWorkParam>
+  <FormLayoutCfg>
+    <TreePanelWidth>300</TreePanelWidth>
+    <ShowTreePanel>true</ShowTreePanel>
+    <ShowPTZ>true</ShowPTZ>
+    <ListPanelHeight>300</ListPanelHeight>
+    <ShowListPanel>true</ShowListPanel>
+  </FormLayoutCfg>
+  <LEDConfig>
+    <OpenCOMOvertime>10000</OpenCOMOvertime>
+    <SendDataToCOMOvertime>10000</SendDataToCOMOvertime>
+    <DelayAfterCOMClosed>5000</DelayAfterCOMClosed>
+    <SpaceBetweenCMD>2000</SpaceBetweenCMD>
+  </LEDConfig>
+  <CommuniConfig>
+    <bReceivedTimeoutControl>true</bReceivedTimeoutControl>
+    <dwReceivedTimeOutMilliSecond>60000</dwReceivedTimeOutMilliSecond>
+    <bSendHeartBeat>true</bSendHeartBeat>
+    <dwHeartBeatInterval>1000</dwHeartBeatInterval>
+    <nRecvBufLen>131072</nRecvBufLen>
+    <nSendBufLen>16384</nSendBufLen>
+  </CommuniConfig>
+</SystemConfig>
